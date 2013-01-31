@@ -1,0 +1,14 @@
+%% -*- erlang -*-
+{application, spades,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  riak_core
+                 ]},
+  {mod, { spades_app, []}},
+  {env, []}
+ ]}.
